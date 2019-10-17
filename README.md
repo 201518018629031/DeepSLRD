@@ -8,8 +8,8 @@ scipy==1.3.1
 # How to use
 ## Dataset
 unzip dataset.zip  
-The dataset.zip includes nflod, resource, twitter15 and twitter16 folders. This dataset collected by [Ma et al. (2017)], and it can be downloaded from [here](https://www.dropbox.com/s/7ewzdrbelpmrnxu/rumdetect2017.zip?dl=0):  
-Jing Ma, Wei Gao, Kam-Fai Wong. Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning. ACL 2017.  
+The dataset.zip includes nflod, resource, twitter15 and twitter16 folders. This dataset collected by [Ma et al. (2018)], and the raw datasets can be downloaded from [here](https://www.dropbox.com/s/7ewzdrbelpmrnxu/rumdetect2017.zip?dl=0):  
+Jing Ma, Wei Gao, Kam-Fai Wong. Rumor Detection on Twitter with Tree-structured Recursive Neural Networks. ACL 2018.  
 The ind_twitter15.graph, ind_twitter15.features, ind_twitter15.poster, ind_twitter16.graph, ind_twitter16.features, and ind_twitter16.poster files are the propocessed data of user behavious graph on datasets twitter15 and twitter16, respectively.  
 ## Training & Testing
 python Main_BU_RvNN_GCN.py #training and testing the BU-Hybrid model  
