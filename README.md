@@ -14,3 +14,13 @@ The ind_twitter15.graph, ind_twitter15.features, ind_twitter15.poster, ind_twitt
 ## Training & Testing
 python Main_BU_RvNN_GCN.py #training and testing the BU-Hybrid model  
 python Main_TD_RvNN_GCN.py #training and testing the TD-Hybrid model
+# Citation
+If you find the code is useful for your research, please cite this paper:  
+'@inproceedings{inproceedings,
+author = {Huang, Qi and Zhou, Chuan and Wu, Jia and Wang, Mingwen and Wang, Bin},
+year = {2019},
+month = {07},
+pages = {1-8},
+title = {Deep Structure Learning for Rumor Detection on Twitter},
+doi = {10.1109/IJCNN.2019.8852468}
+}'
