@@ -16,7 +16,7 @@ python Main_BU_RvNN_GCN.py #training and testing the BU-Hybrid model
 python Main_TD_RvNN_GCN.py #training and testing the TD-Hybrid model
 # Citation
 If you find the code is useful for your research, please cite this paper:  
-<pre><code>@inproceedings{inproceedings,
+<pre><code>@inproceedings{huang2019deep,
 author = {Huang, Qi and Zhou, Chuan and Wu, Jia and Wang, Mingwen and Wang, Bin},
 year = {2019},
 month = {07},
